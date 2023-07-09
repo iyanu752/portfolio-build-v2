@@ -6,7 +6,9 @@
 * {
   box-sizing: border-box;
   margin-bottom: 0;
+
 }
+
 
 span {
   color: #ffffff;
@@ -473,6 +475,12 @@ background: linear-gradient(165deg, rgba(0,0,0,0) 0%, rgba(33,33,33,0) 100%);
 
 }
 
+.nav-bar.active {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
 p {
   color: #ffffff;
   text-align: center;
@@ -523,8 +531,9 @@ p {
 }
 
 .projects-btn {
-  width: 45%;
+  width: 50%;
   cursor: pointer;
+  background-color: #ffffff;
 }
 
 .input-box {

@@ -17,13 +17,13 @@ function Main() {
                                 <span className="wrap"><TypeAnimation
                     sequence={[
                         // Same substring at the start will only be typed once, initially
-                        'I am a Frontend developer',
+                        ' Frontend developer',
                         1000,
-                        'I am a Frontend engineer',
+                        'Frontend engineer',
                         1000,
                     ]}
                     speed={50}
-                    style={{ fontSize: '1.5em', fontFamily: 'Audiowide' }}
+                    style={{ fontSize: '1.1em', fontFamily: 'Audiowide' }}
                     repeat={Infinity}
                     /></span>
                 <p>
