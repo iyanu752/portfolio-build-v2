@@ -3,6 +3,7 @@ import Html from "../icons/icons8-html-96.png";
 import Css from "../icons/icons8-css-filetype-96.png";
 import Javascript from "../icons/icons8-javascript-96.png";
 import react from '../icons/icons8-react-native-96.png';
+import Tailwind from '../icons/icons8-tailwind-css-96.png';
 import Marquee from "react-fast-marquee";
 
 
@@ -37,6 +38,15 @@ function Skills() {
                     <div className="skill-name-div">
                         <h4 className="skill-names"> CSS </h4>
                     </div>
+                </div>
+
+                <div className="scroll-container">
+                    <div className="skill-img-div">
+                        <img className="skill-img" src={Tailwind} alt="skills"/>
+                    </div>
+                    <div className="skill-name-div">
+                        <h4 className="skill-names"> TAILWIND CSS </h4>
+                    </div>
                     
                 </div>
 
@@ -59,6 +69,8 @@ function Skills() {
                     </div>
                     
                 </div>
+
+
             </Marquee>
                 
 
