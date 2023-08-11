@@ -82,7 +82,7 @@ function Projects () {
                                     I created a todo list app, is a user-friendly tool that allowas you to track yout tasks effortlessly.
                                     </p>
                                 <div className="project-btns">
-                                 <button className="projects-btn"><a href="todo-list-mlz9fef71-sketchyanimator752-gmailcom.vercel.app"target="_blank" rel="noopener noreferrer" > live site </a></button>
+                                 <button className="projects-btn"><a href="https://todo-list-app-nine-beta.vercel.app/"target="_blank" rel="noopener noreferrer" > live site </a></button>
                                     <button className="projects-btn"><a href="https://github.com/iyanu752/todo-list-app"target="_blank" rel="noopener noreferrer" > Source Code </a> </button>
                                 </div>
                             </div>
