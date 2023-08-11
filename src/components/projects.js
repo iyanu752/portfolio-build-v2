@@ -1,9 +1,9 @@
 import React from "react"; 
 import Slider from "react-slick";
-import Agepng from "../images/age calculator app.jpg";
 import Huddle from "../images/huddle.jpg";
 import Lead from "../images/lead tracker.jpg";
 import Face from "../images/Face-Attendance.jpg";
+import Todo from "../images/todolist app.jpg";
 
 
 
@@ -75,15 +75,15 @@ function Projects () {
 
                     <div className="projects-spacing">
                         <div className="projects-div">
-                            <img  className ="img-adj" src= {Agepng} alt="AGE CALCULATOR AAPP"/>
+                            <img  className ="img-adj" src= {Todo} alt="Todo list APP"/>
                             <div className=" disc">
-                                <h3 className="project-dis">AGE-CALCULATOR-APP</h3>
+                                <h3 className="project-dis">TODO-LIST-APP</h3>
                                 <p className="project-p">
-                                    I created an  Age Calculator, is a user-friendly tool that makes calculating age quick and effortless.
+                                    I created a todo list app, is a user-friendly tool that allowas you to track yout tasks effortlessly.
                                     </p>
                                 <div className="project-btns">
-                                 <button className="projects-btn"><a href="https://main--boisterous-speculoos-899414.netlify.app/"target="_blank" rel="noopener noreferrer" > live site </a></button>
-                                    <button className="projects-btn"><a href="https://github.com/iyanu752/AGE-CALCULATOR-APP/"target="_blank" rel="noopener noreferrer" > Source Code </a> </button>
+                                 <button className="projects-btn"><a href="todo-list-mlz9fef71-sketchyanimator752-gmailcom.vercel.app"target="_blank" rel="noopener noreferrer" > live site </a></button>
+                                    <button className="projects-btn"><a href="https://github.com/iyanu752/todo-list-app"target="_blank" rel="noopener noreferrer" > Source Code </a> </button>
                                 </div>
                             </div>
                         </div>
